@@ -1,0 +1,26 @@
+.heading img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.newarrivals h4 {
+    font-weight: 600;
+}
+.newarrivals span {
+    font-size: 15px;
+    font-weight: 500;
+}
+.newimage img {
+    width: 100%;
+    height: 100%;
+    filter: contrast(120%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 12px;
+}
+.newarrivalPrice  {
+    color: #e94560;
+}
+.newimages img {
+    width: 100%;
+    height: 100%;
+}

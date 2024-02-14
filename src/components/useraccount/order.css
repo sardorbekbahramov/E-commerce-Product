@@ -1,0 +1,18 @@
+@import url(../../App.css);
+
+
+.user_product_order{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.user_product_order .user_orders{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 10px;
+}

@@ -1,0 +1,40 @@
+.wrapper{ 
+    text-align: center;
+
+}
+
+.wrapper .img {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.wrapper .img i {
+    font-size: 25px;
+}
+
+.wrapper .product {
+    padding: 30px;
+}
+
+.wrapper .product h3 {
+    font-weight: 500;
+}
+
+.wrapper .product p {
+    font-size: 15px;
+    color: gray;
+    margin-top: 20px;
+}
+.wrapper_icon {
+    position: relative;
+    top: 4px;
+}
+
+@media(max-width:1024px){
+    .wrapper .product{
+        width: 300px;
+    }
+}

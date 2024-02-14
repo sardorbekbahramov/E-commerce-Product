@@ -1,0 +1,19 @@
+.img-left {
+    width: 30%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.img-right {
+    width: 68%;
+    height: 340px;
+}
+
+@media(max-width:800px){
+    .img-left{
+        display: none;
+    }
+    .img-right{
+        display: none;
+    }
+}
