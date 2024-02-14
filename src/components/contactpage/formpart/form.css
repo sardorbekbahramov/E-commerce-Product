@@ -33,6 +33,7 @@
 }
 
 .get_form .f_cont .f_grp .f_getInfo .f_p{
+    position: relative;
     font-size: 22px;
     font-weight: 500;
 }
@@ -40,7 +41,7 @@
 .get_form .f_cont .f_grp .f_getInfo .f_input{
     background-color: #f6f9fc;
     border-bottom: 2px solid #848789;
-    width: 70%;
+    width: 80%;
     padding: 5px 10px;
     margin: 10px 0 20px 5px;
 }
@@ -61,19 +62,13 @@
     font-size: 20px;
     font-weight: 600;
     padding: 5px 25px;
-    border-radius: 1vw;
     background-color: #127ae3;
+    padding: 12px 40px;
+    border-radius: 5px;
     color: #f6f9fc;
-    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
-.get_form .f_cont .f_grp .f_getInfo .f_btn:hover{
-    color: #127ae3;
-    background-color: #f6f9fc;
-    cursor: pointer;
-    border-bottom: 2px solid #127ae3;
-    border-radius: 0;
-}
 
 .get_form .f_cont .f_grp .f_iframe{
     width: 50%;
